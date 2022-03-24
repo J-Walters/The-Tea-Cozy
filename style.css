@@ -1,0 +1,79 @@
+* {
+  background-color: black;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+/* 
+  margin: 0px;
+  padding: 0px;
+} */
+
+.header {
+  width: 100%;
+  height: 69px;
+  display: block;
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  height: 50px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0 20px;
+}
+
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  text-decoration: underline;
+  color: seashell;
+}
+
+/* 
+#nav-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  /* position: fixed; */
+/* } */
+
+/* .tea-cozy-logo {
+  margin-left: 10px;
+}
+
+.hyper-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  cursor: pointer;
+} */
+
+/* .main-image {
+  height: 700px;
+  width: 700px;
+}
+
+.tea-container {
+  display: flex;
+} */ ;
