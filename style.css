@@ -1,17 +1,8 @@
-/* * {
-  background-color: black;
-  font-size: 22px;
-  color: seashell;
-  opacity: 0.9;
-  text-align: center;
-} */
-
 body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
-  /* opacity: 0.9; */
   text-align: center;
   margin: 0;
 }
@@ -67,4 +58,23 @@ body {
   margin: auto;
   background-color: black;
   width: 100%;
+}
+
+.trend-container {
+  display: inline-flex;
+  max-width: 1000px;
+  height: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.trend img {
+  height: 200px;
+  width: 300px;
+  padding: 10px 10px;
+}
+
+.trend h2 {
+  font-size: 20px;
 }
