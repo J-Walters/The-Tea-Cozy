@@ -1,14 +1,20 @@
-* {
+/* * {
   background-color: black;
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
   text-align: center;
-}
-/* 
-  margin: 0px;
-  padding: 0px;
 } */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  /* opacity: 0.9; */
+  text-align: center;
+  margin: 0;
+}
 
 .header {
   width: 100%;
@@ -23,8 +29,7 @@
 .logo {
   height: 50px;
   float: left;
-  margin-left: 10px;
-  margin-top: 10px;
+  padding-left: 10px;
 }
 
 .navigation {
@@ -48,32 +53,18 @@
   color: seashell;
 }
 
-/* 
-#nav-container {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid seashell;
-  height: 69px;
-  /* position: fixed; */
-/* } */
-
-/* .tea-cozy-logo {
-  margin-left: 10px;
-}
-
-.hyper-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: underline;
-  cursor: pointer;
-} */
-
-/* .main-image {
+.mission-container {
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-repeat: none;
+  background-position: center;
   height: 700px;
-  width: 700px;
+  max-width: 1200px;
+  margin: 40px auto 40px auto;
+  display: flex;
 }
 
-.tea-container {
-  display: flex;
-} */ ;
+.text-over {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
